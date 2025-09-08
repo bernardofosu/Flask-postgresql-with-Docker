@@ -1,0 +1,35 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env
+
+# Logs
+*.log
+
+# Git & IDE
+.git
+.gitignore
+.vscode
+.idea
+
+# Docker-related
+# Dockerfile
+# docker-compose.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Terraform (since you have EKS setup)
+EKS-Setup-Using-Terraform/.terraform/
+EKS-Setup-Using-Terraform/*.tfstate
+EKS-Setup-Using-Terraform/*.tfstate.*
+
+# Python packaging
+*.egg-info/
+dist/
+build/

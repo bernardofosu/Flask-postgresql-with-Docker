@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env
+
+# Logs
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Terraform
+EKS-Setup-Using-Terraform/.terraform/
+EKS-Setup-Using-Terraform/*.tfstate
+EKS-Setup-Using-Terraform/*.tfstate.*
+
+# Docker
+*.pid
